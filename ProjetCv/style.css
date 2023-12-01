@@ -35,11 +35,14 @@ p{
 
 .header{
   text-align: center;
-width: 100%;
-margin: auto;
-background-color: #ffcb8b;
-height: 100px;
-margin-top: -20px;
+  width: 100%;
+  margin: auto;
+  background-color: #ffcb8b;
+  height: 10%;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience{
@@ -81,4 +84,28 @@ img{
 
   img{
     width: 100%;
+  }
+
+  .containerdiv{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 15px 0;
+    border: 2px solid black;
+    position: relative;
+  }
+
+  .center{
+    background-color: #ffcb8b;
+    height: 35px;
+    line-height: 40px;
+    padding: 0 5px;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    bottom: -16px;
+    left: 200px;
+    transform: translate(-50%);
+    
+
   }
